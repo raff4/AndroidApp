@@ -1,6 +1,4 @@
-
-Android App Policamp  
-#########################
+# Android App Policamp  
 
 ## Proposta
 
@@ -18,11 +16,11 @@ Android App Policamp
 
 [texto]
 
-# Instruções 
+## Instruções 
 
 [texto]
 
-## Comando de utilização do git
+### Comando de utilização do git
 
 * Configurar o Repositorio
 `git remote add origin https://github.com/raff4/androidapp.git`
