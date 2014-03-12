@@ -3,7 +3,17 @@
 **************************
 
 
-Comando de utilização do git
+******* PROXY POLICAMP *********
+
+**/ Para adicionar o proxy e remover
+
+git config --global http.proxy 10.0.0.1:3128
+git config --global http.sslverify false
+**
+git config --global --unset http.proxy
+git config --global --unset http.sslverify
+
+*** Comando de utilização do git ***
 
 **/ Configurar o Repositorio
 git remote add origin https://github.com/raff4/androidapp.git
@@ -26,3 +36,5 @@ git tag 1.0.0
 
 Fonte
 http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+
